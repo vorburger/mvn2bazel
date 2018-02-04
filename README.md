@@ -3,6 +3,8 @@ Maven to Bazel how to (mvn2bazel)
 
 This document is a brain dump of ideas for as-much-as-possible "in an ideal world" automated Maven to Bazel migration.
 
+This should ultimately permit migrating a complex real world project such as git.OpenDaylight.org's build system to Bazel.
+
 It may evolve into a more formal spec for such a project.
 
 - [X] build using external Maven repo deps? DONE, see examples/java-maven/WORKSPACE
